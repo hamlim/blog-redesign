@@ -1,0 +1,17 @@
+.Logo {
+  display: inline-block;
+  height: 3rem;
+}
+.Logo--letter {
+  display: inline-block;
+  vertical-align: middle;
+}
+.Logo--letter + .Logo--letter {
+  margin-left: .5em;
+}
+.Logo--back {
+  fill: #756ed4;
+}
+.Logo--front {
+  fill: #dfbd0e;
+}

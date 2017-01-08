@@ -1,0 +1,37 @@
+.Header {
+  height: 5rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--a);
+  font-size: 1.5rem;
+}
+.Header--container {
+  max-width: var(--width, 35rem);
+  flex-grow: 2;
+}
+
+.Header--link {
+  color: var(--black);
+  text-decoration: none;
+  display: inline-block;
+  padding: .15em .5em;
+  border-radius: .1em;
+  background-color: inherit;
+  margin: 0 .5em;
+}
+.Header--link:hover,
+.Header--link:focus {
+  background-color: var(--b);
+}
+.Header--link:visited {
+  box-shadow: 0 0 4px rgba(255, 255, 255, .8);
+}
+.is-active {
+  background-color: var(--c);
+}
+.is-active:hover,
+.is-active:focus {
+  background-color: var(--d);
+}

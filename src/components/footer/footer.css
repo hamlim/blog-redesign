@@ -1,0 +1,16 @@
+.Footer {
+  height: 5rem;
+  background-color: var(--a);
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+}
+.Footer--container {
+  max-width: var(--width, 35rem);
+  flex-grow: 2;
+}
+.Footer--text {
+  font-size: 1.2rem;
+  text-align: left;
+}

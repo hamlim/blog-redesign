@@ -1,3 +1,14 @@
+:root {
+  --a: springgreen;
+  --b: dodgerblue;
+  --c: peachpuff;
+  --d: salmon;
+  --white: papayawhip;
+  --black: black;
+
+  --width: 35rem;
+}
+
 .App {
   text-align: center;
 }
