@@ -10,24 +10,24 @@ const Header = ({location}) => {
         <div className="Header--container">
           <Logo />
           <a href="./" className="Header--link is-active">Home</a>
-          <a href="./archive" className="Header--link">Blog</a>
-          <a href="./work" className="Header--link">Work</a>
+          <a href="./blog" className="Header--link">Blog</a>
+          <a href="./projects" className="Header--link">Projects</a>
         </div>
       )}
-      { location === '/archive' && (
+      { location === '/blog' && (
         <div className="Header--container">
           <Logo />
           <a href="./" className="Header--link">Home</a>
-          <a href="./archive" className="Header--link is-active">Blog</a>
-          <a href="./work" className="Header--link">Work</a>
+          <a href="./blog" className="Header--link is-active">Blog</a>
+          <a href="./projects" className="Header--link">Projects</a>
         </div>
       )}
-      { location === '/work' && (
+      { location === '/projects' && (
         <div className="Header--container">
           <Logo />
           <a href="./" className="Header--link">Home</a>
-          <a href="./archive" className="Header--link">Blog</a>
-          <a href="./work" className="Header--link is-active">Work</a>
+          <a href="./blog" className="Header--link">Blog</a>
+          <a href="./projects" className="Header--link is-active">Projects</a>
         </div>
       )}
     </header>

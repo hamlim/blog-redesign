@@ -1,0 +1,4 @@
+.Blog {
+  max-width: var(--width, 35rem);
+  flex-grow: 1;
+}
