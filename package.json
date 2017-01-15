@@ -2,7 +2,7 @@
   "name": "blog-2017",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.goexploring.today/blog-redesign/",
+  "homepage": "https://www.goexploring.today/blog-redesign/build/",
   "devDependencies": {
     "react-scripts": "0.8.4"
   },
