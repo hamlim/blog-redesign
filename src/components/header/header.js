@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Logo from '../logo/logo';
+// import Logo from '../logo/logo';
+import Link from '../link/link';
 import './header.css';
 
 const Header = ({location}) => {
@@ -8,26 +9,26 @@ const Header = ({location}) => {
     <header className="Header">
       { location === '/' && (
         <div className="Header--container">
-          <Logo />
-          <a href="./" className="Header--link is-active">Home</a>
-          <a href="./blog" className="Header--link">Blog</a>
-          <a href="./projects" className="Header--link">Projects</a>
+          <h1 className="Header--title">Matthew Hamlin <span className="Header--pageTitle">Home</span></h1>
+          <Link to="./" isPrimary>Home</Link>
+          <Link to="./blog">Blog</Link>
+          <Link to="./projects">Projects</Link>
         </div>
       )}
       { location === '/blog' && (
         <div className="Header--container">
-          <Logo />
-          <a href="./" className="Header--link">Home</a>
-          <a href="./blog" className="Header--link is-active">Blog</a>
-          <a href="./projects" className="Header--link">Projects</a>
+          <h1 className="Header--title">Matthew Hamlin <span className="Header--pageTitle">Blog</span></h1>
+          <Link to="./">Home</Link>
+          <Link to="./blog" isPrimary>Blog</Link>
+          <Link to="./projects">Projects</Link>
         </div>
       )}
       { location === '/projects' && (
         <div className="Header--container">
-          <Logo />
-          <a href="./" className="Header--link">Home</a>
-          <a href="./blog" className="Header--link">Blog</a>
-          <a href="./projects" className="Header--link is-active">Projects</a>
+          <h1 className="Header--title">Matthew Hamlin <span className="Header--pageTitle">Projects</span></h1>
+          <Link to="./">Home</Link>
+          <Link to="./blog">Blog</Link>
+          <Link to="./projects" isPrimary>Projects</Link>
         </div>
       )}
     </header>
